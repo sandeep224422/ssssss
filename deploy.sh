@@ -35,7 +35,7 @@ heroku config:set DOWNLOAD_PATH=./Downloads --app $APP_NAME
 
 # Add buildpack for .NET
 echo "🔧 Adding .NET buildpack..."
-heroku buildpacks:add https://github.com/jincod/dotnet-buildpack --app $APP_NAME
+heroku buildpacks:add heroku/dotnet --app $APP_NAME
 
 # Deploy
 echo "📤 Deploying to Heroku..."
