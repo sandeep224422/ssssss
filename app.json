@@ -1,0 +1,21 @@
+{
+  "name": "YouTube Music Downloader API",
+  "description": "API for downloading YouTube music and converting to MP3",
+  "repository": "https://github.com/Suraj08832/jindaapi",
+  "keywords": ["youtube", "music", "download", "api", "mp3"],
+  "env": {
+    "API_KEY": {
+      "description": "API key for authentication (zefron@123)",
+      "value": "zefron@123"
+    },
+    "DOWNLOAD_PATH": {
+      "description": "Path for storing downloaded files",
+      "value": "./Downloads"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jincod/dotnet-buildpack"
+    }
+  ]
+}
