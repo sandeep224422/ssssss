@@ -17,5 +17,6 @@
     {
       "url": "heroku/dotnet"
     }
-  ]
+  ],
+  "stack": "heroku-24"
 }
